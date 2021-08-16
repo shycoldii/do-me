@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# do_me v.1.0
+<img width=40 src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Dome3.png">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2> Описание </h2>
 
-## Available Scripts
+Данное приложение - улучшенный список дел для многократного использования. В системе используется аунтефикация,
+которая позволяет работать с несколькими учетными записями. do me - "сделай меня". 
 
-In the project directory, you can run:
+<h2> Description </h2>
 
-### `npm start`
+This app is an improved reusable to-do list. The system uses authentification,
+which allows you to work with multiple accounts. do me - "make me".
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2> Приложение </h2>
+ 
+   + несколько учетных записей
+   + аунтефикация по токену
+   + несколько разделов для более гибких задач
+   + удобная система drag-drop, позволяющая менять задачи по приоритетам
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2> Application </h2>
+ 
+   + multiple accounts
+   + token authentication
+   + several sections for more flexible tasks
+   + convenient drag-drop system that allows you to change tasks by priority
 
-### `npm test`
+<h2> Демонстрация/Demonstration </h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://sun9-60.userapi.com/impg/-oDQK1kZG2VhSKD5ODehURVGy44smVoMzYxRSg/MF0t1ifg9_0.jpg?size=1839x987&quality=96&sign=f6f33e887de71011ab885c576607f9dc&type=album">
+<img align="center" src="https://sun9-31.userapi.com/impg/tp7hp_-cz4MvzoHs9JbCavixk5RY-VYzJSHYqQ/9v1CAoKDK3c.jpg?size=1293x631&quality=96&sign=65155313f706cc7e2f0702f78b6d29d2&type=album">
+<img src="https://sun9-82.userapi.com/impg/YLaPqyA2QdWknJUuNxKT0U_FXfKAlyGUJfOS0A/7Q8Bs0K76Zk.jpg?size=1504x692&quality=96&sign=e9b01f118188a1df69337908ab60375b&type=album">
+<img align="right" src="https://sun9-27.userapi.com/impg/xDbHd6iHE3YSZJKskU7EBZoVM8Y_Fs5CIEln7Q/HBM-IhjSHm4.jpg?size=489x305&quality=96&sign=a80719b71a4631c58ef2b4d14d21d254&type=album">
 
-### `npm run build`
+<h2> Техническое описание/Technical description </h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+java (backend) + react JS (frontend) + H2 (database)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ <h2> Запуск </h2>
+ 
+ 1. Скачай проект
+ 2. mvn clean package 
+ 3. Запусти готовый jar file (или скачай сразу здесь)
+ 4. Используй
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ <h2> Run </h2>
+ 
+ 1. Download project
+ 2. mvn clean package 
+ 3. Run jar file (or download it here)
+ 4. Enjoy
 
-### `npm run eject`
+<h2> Author/Автор </h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Alexandrova Daria/Александрова Дарья
