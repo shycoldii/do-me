@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      history.pushState(null, null, location.href);
+      window.onpopstate = function () {
+        history.go(1);
+      };
+    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/f/fb/Dome3.png" />
+    <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+    />
+    <title>do me</title>
+  </head>
+  <body style="background-color:#272B30">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

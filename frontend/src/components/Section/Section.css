@@ -1,0 +1,34 @@
+#inputWrapper{
+    alignment: center;
+    display: flex;
+
+
+    white-space: nowrap;
+}
+#todoInput {
+    alignment: right;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: #8080804f;
+    background: transparent;
+    padding: 0.5rem;
+    width: 80%;
+    color: white;
+}
+
+#todoBtn {
+    alignment: center;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    background: gray;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    border-style: solid;
+    border-color: #8080804f;
+    cursor: pointer;
+    width: 20%;
+}
+
+
