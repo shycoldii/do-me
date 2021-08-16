@@ -169,12 +169,12 @@ class SectionList extends Component{
                     <Modal.Body className={"bg-dark  border-dark"}>
                         <Form>
                             <Form.Group className="mb-3" controlId="ControlInput1">
-                                <Form.Label  >Название</Form.Label>
+                                <Form.Label  >Name</Form.Label>
                                 <Form.Control onChange={this.handleChange.bind(this)} required value={this.state.name}
                                               autoComplete="off" name="name"  className={"bg-secondary text-white border-dark"}/>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="ControlTextarea1">
-                                <Form.Label>Описание</Form.Label>
+                                <Form.Label>Description</Form.Label>
                                 <Form.Control  onChange={this.handleChange.bind(this)} name="description"
                                                autoComplete="off"
                                                required value={this.state.description}
